@@ -1,0 +1,54 @@
+.chatbox{ 
+        position: absolute !important;
+        z-index: 999;
+        bottom: 0;
+        right: 0;
+        width: 300px;
+
+    .chatbox-heading {
+        background-color: $color-netflix-red;
+        color: white;
+        padding: 15px;
+        border-radius: 5px;
+        font-size: .8em;
+    }
+
+    .chatbox-bg {
+        overflow-y: scroll;
+        height: 420px;
+        background-color: $background-color-black;
+        opacity: 0.8;
+    }
+
+    .chat-message {
+        margin: 8px;
+        padding: 5px;
+        border-radius: 5px;
+        width: 45%;
+        background-color: #c0c0c0;
+    }
+
+   .chatbox_inputform__form{
+        width: 100%;
+        position: relative;
+        // height: 10%;
+        // position: absolute;
+    
+        input[type='submit']{
+            height: 100%;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            background-color: $background-color-black;
+            color: white;
+        }
+        input[type = 'text']{
+            font-size: .845rem;
+            padding: .5em .2em;
+            width: 100%;
+            text-indent: .5em;
+        }
+    }
+
+    
+}
