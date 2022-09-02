@@ -1,4 +1,5 @@
 import { PureComponent } from 'react'
+import { Link } from 'react-router-dom'
 import { ReactComponent as NavbarLogo } from '../../media/logo.svg'
 
 class NavbarLeft extends PureComponent {
@@ -13,9 +14,9 @@ class NavbarLeft extends PureComponent {
                     </div>
                     <div className='nav-left-menu'>
                         <ul>
-                            <li>Home</li>
+                            <li><Link className="text-link" to="/">Home</Link></li>
                             <li>TV Shows</li>
-                            <li>Movies</li>
+                            <li><Link className="text-link" to="/games">Games</Link></li>
                             <li>New & Popular</li>
                             <li>My List</li>
                         </ul>

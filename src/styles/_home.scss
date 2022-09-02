@@ -6,6 +6,7 @@
     .cover{
         height: 800px;
         position: relative;
+
         .cover-banner{
             object-fit: cover;
             height: 800px;
@@ -65,6 +66,7 @@
         font-weight: 600;
         font-size: 1.1em;
         margin: -50px 60px;
+        z-index: 99;
     }
 
     .titles{
@@ -75,6 +77,11 @@
         flex-wrap: wrap;
         justify-content: center;
         
+    }
+
+    .fl-left {
+        justify-content: left;
+        margin-left: 50px;
     }
 
 }

@@ -27,6 +27,12 @@
                 width: 18%;
                 fill: $color-netflix-red
             }
+
+            .text-link {
+                color: inherit;
+                text-decoration: inherit;
+            }
+            
             .nav-left-menu ul{
                 color:white;
                 display: flex;
